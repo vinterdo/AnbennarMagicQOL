@@ -1931,20 +1931,14 @@ country_event = {
 	option = {	#available
 		name = magic_ruler.3.f
 		trigger = {
-			has_ruler_flag = divination_2
-			ruler_studying_magic = yes
-			NOT = { has_ruler_modifier = magic_loreseeker_cooldown }
+			can_cast_loreseeker = yes
 		}
 		ai_chance = {
 			factor = 50
 		}
-		magic_casted_spell = yes
-		magic_legend_lore_effect = yes
-		add_ruler_modifier = { name = magic_loreseeker_cooldown duration = 30 hidden = yes }
+		cast_loreseeker = yes
 		set_country_flag = divination_menu
 		hidden_effect = { country_event = { id = magic_ruler.9 } }
-		
-		custom_tooltip = magic_loreseeker_desc_tt
 	}
 	option = {	#unavailable - low mastery
 		name = magic_ruler.3.fm

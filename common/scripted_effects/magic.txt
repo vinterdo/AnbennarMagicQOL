@@ -813,3 +813,16 @@ cast_glamour_3 = {
 		}
 	}
 }
+
+cast_loreseeker = {
+	magic_casted_spell = yes
+	magic_legend_lore_effect = yes
+	add_ruler_modifier = { name = magic_loreseeker_cooldown duration = 30 hidden = yes }
+	custom_tooltip = magic_loreseeker_desc_tt
+	hidden_effect = {
+		country_event = {
+			id = magicRecastEvents.16
+			days = 31
+		}
+	}
+}

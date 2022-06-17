@@ -73,3 +73,7 @@
  magicRecastEvents.15.b:0 "Cast Glamour II!"
  magicRecastEvents.15.c:0 "Cast Glamour III!"
  magicRecastEvents.15.x:0 "Not this time"
+ magicRecastEvents.16.t:0 "Recast ruler magic: Loreseeker"
+ magicRecastEvents.16.d:0 "Your spell Loreseekr just came out of colddown, do you want to cast it again? "
+ magicRecastEvents.16.a:0 "Cast it again!"
+ magicRecastEvents.16.x:0 "Not this time"

@@ -302,3 +302,9 @@ can_cast_glamour_3 = {
 	NOT = { has_ruler_modifier = magic_realm_illusion_enchanted_glamour }
 	NOT = { has_ruler_modifier = magic_realm_illusion_otherworldly_glamour }
 }
+
+can_cast_loreseeker = {
+	has_ruler_flag = divination_2
+	ruler_studying_magic = yes
+	NOT = { has_ruler_modifier = magic_loreseeker_cooldown }
+}

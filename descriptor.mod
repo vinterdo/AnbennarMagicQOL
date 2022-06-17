@@ -9,3 +9,4 @@ dependencies={
 }
 supported_version="1.33.3"
 path="C:/Users/Vinterdo/Documents/Paradox Interactive/Europa Universalis IV/mod/AnbennarMagicQOL"
+remote_file_id="2821696774"

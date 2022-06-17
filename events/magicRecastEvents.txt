@@ -495,3 +495,26 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
+# recast loreseeker
+country_event = {
+	id = magicRecastEvents.16
+	title = magicRecastEvents.16.t
+	picture = MAGIC_STUDY_AND_RELAX_eventPicture
+	desc = magicRecastEvents.16.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+		can_cast_loreseeker = yes
+	}
+	
+	option = {
+		name = magicRecastEvents.16.a
+		cast_loreseeker = yes
+	}
+	option = {
+		name = magicRecastEvents.16.x
+		ai_chance = { factor = 0 }
+	}
+}
